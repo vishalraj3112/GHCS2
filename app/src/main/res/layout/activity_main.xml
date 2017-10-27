@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/toolbar"
+     android:id="@+id/toolbarTitle"
+        />
+
+
+    <Button
+        android:layout_below="@id/toolbarTitle"
+        android:id="@+id/noticeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Notice"
+        android:textSize="@dimen/buttonText">
+
+    </Button>
+    <Button
+        android:id="@+id/impNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noticeButton"
+        android:text="@string/impNo"
+        android:textSize="@dimen/buttonText"
+        />
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/impNo"
+        android:text="@string/contact"
+        android:textSize="@dimen/buttonText"
+        />
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:text="@string/about"
+        android:textSize="@dimen/buttonText"
+        />
+
+
+
+
+</RelativeLayout>

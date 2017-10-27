@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GHCS2</string>
+    <string name="Notice">1.Notices</string>
+    <string name="impNo">2.Important numbers.</string>
+    <string name="contact">3.Contact your admin.</string>
+    <string name="about">4.About</string>
+</resources>
